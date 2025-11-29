@@ -79,10 +79,5 @@ public class loginTest {
         assertTrue(message.getAttribute("value").contains("Login Sucessful"));
     }
 
-    @AfterAll
-    static void exit() {
-        if (webDriver != null) {
-            webDriver.quit();
-        }
-    }
+   
 }
